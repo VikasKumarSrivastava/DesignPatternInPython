@@ -6,6 +6,7 @@ class VehicleInterface(ABC):
     def get_vehicle_type():
         pass
 
+
 class ElectricVehicle(VehicleInterface):
     def __init__(self):
         self.name='Electric Vehicle'
